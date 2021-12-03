@@ -7,3 +7,12 @@ C:\Users\user\Documents\Visual Studio 2015\Projects\DgvControl\DgvControl\obj\De
 C:\Users\user\Documents\Visual Studio 2015\Projects\DgvControl\DgvControl\obj\Debug\DgvControl.csproj.GenerateResource.Cache
 C:\Users\user\Documents\Visual Studio 2015\Projects\DgvControl\DgvControl\obj\Debug\DgvControl.exe
 C:\Users\user\Documents\Visual Studio 2015\Projects\DgvControl\DgvControl\obj\Debug\DgvControl.pdb
+C:\prac_dgvControl\DgvControl\DgvControl\bin\Debug\DgvControl.exe.config
+C:\prac_dgvControl\DgvControl\DgvControl\obj\Debug\DgvControl.exe
+C:\prac_dgvControl\DgvControl\DgvControl\obj\Debug\DgvControl.pdb
+C:\prac_dgvControl\DgvControl\DgvControl\bin\Debug\DgvControl.exe
+C:\prac_dgvControl\DgvControl\DgvControl\bin\Debug\DgvControl.pdb
+C:\prac_dgvControl\DgvControl\DgvControl\obj\Debug\DgvControl.csprojResolveAssemblyReference.cache
+C:\prac_dgvControl\DgvControl\DgvControl\obj\Debug\DgvControl.Form1.resources
+C:\prac_dgvControl\DgvControl\DgvControl\obj\Debug\DgvControl.Properties.Resources.resources
+C:\prac_dgvControl\DgvControl\DgvControl\obj\Debug\DgvControl.csproj.GenerateResource.Cache

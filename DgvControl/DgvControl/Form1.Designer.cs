@@ -126,7 +126,6 @@
             this.no.Name = "no";
             this.no.ReadOnly = true;
             this.no.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.no.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.no.Width = 40;
             // 
             // selectionParent
@@ -228,6 +227,7 @@
             this.dgvChild.ReadOnly = true;
             this.dgvChild.RowHeadersVisible = false;
             this.dgvChild.RowTemplate.Height = 30;
+            this.dgvChild.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvChild.Size = new System.Drawing.Size(575, 583);
             this.dgvChild.TabIndex = 0;
             // 
@@ -239,7 +239,6 @@
             this.childNo.Name = "childNo";
             this.childNo.ReadOnly = true;
             this.childNo.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.childNo.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.childNo.Width = 40;
             // 
             // selectionChild
@@ -267,7 +266,6 @@
             this.contentChild.Name = "contentChild";
             this.contentChild.ReadOnly = true;
             this.contentChild.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.contentChild.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // panel2
             // 
@@ -307,6 +305,7 @@
             this.btnChildAdd.TabIndex = 2;
             this.btnChildAdd.Text = "Add";
             this.btnChildAdd.UseVisualStyleBackColor = true;
+            this.btnChildAdd.Click += new System.EventHandler(this.btnChildAdd_Click);
             // 
             // lbChild
             // 

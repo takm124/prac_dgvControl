@@ -110,6 +110,19 @@ namespace DgvControl
             }
         }
 
+        
+        private void btnChildAdd_Click(object sender, EventArgs e)
+        {
+            // 새로운 Child 객체 생성
+            Child ch = new Child();
+            ch.content = DateTime.Now.ToString("yyyyMMddHHmmss") + "에 추가로 생성된 Child";
 
+            // Parent 객체 호출
+            Parent pr = _pg.parent[_prIdx];
+
+            // Child Add 후 화면 재호출
+            pr.childList.Add(ch);
+            fDisplyChild();
+        }
     }
 }
