@@ -116,6 +116,7 @@
             this.dgvParent.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvParent.Size = new System.Drawing.Size(579, 583);
             this.dgvParent.TabIndex = 0;
+            this.dgvParent.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvParent_CellClick);
             this.dgvParent.SelectionChanged += new System.EventHandler(this.dgvParent_SelectionChanged);
             // 
             // no
@@ -174,6 +175,7 @@
             this.btnParentRemove.TabIndex = 2;
             this.btnParentRemove.Text = "Remove";
             this.btnParentRemove.UseVisualStyleBackColor = true;
+            this.btnParentRemove.Click += new System.EventHandler(this.btnParentRemove_Click);
             // 
             // btnParentAdd
             // 
@@ -230,6 +232,7 @@
             this.dgvChild.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvChild.Size = new System.Drawing.Size(575, 583);
             this.dgvChild.TabIndex = 0;
+            this.dgvChild.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvChild_CellClick);
             // 
             // childNo
             // 
@@ -296,6 +299,7 @@
             this.btnChildRemove.TabIndex = 3;
             this.btnChildRemove.Text = "Remove";
             this.btnChildRemove.UseVisualStyleBackColor = true;
+            this.btnChildRemove.Click += new System.EventHandler(this.btnChildRemove_Click);
             // 
             // btnChildAdd
             // 
